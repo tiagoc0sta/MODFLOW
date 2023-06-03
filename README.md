@@ -10,3 +10,7 @@ Technologies used:
 - Build: 412.45223
 - Edition: Premium Trial
 - Serial Number: TRIAL
+
+## Automated file
+
+- vavalidationTest.robot
