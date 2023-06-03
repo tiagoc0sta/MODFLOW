@@ -1,14 +1,12 @@
-# Template: Standard Robot Framework
+# Test case: Validate whether the user is possible to save a project
 
-This is the simplest template to start from.
+Technologies used:
 
-- Get started from a simple task template in `tasks.robot`.
-  - Uses [Robot Framework](https://robocorp.com/docs/languages-and-frameworks/robot-framework/basics) syntax.
-- You can configure your robot `robot.yaml`.
-- You can configure dependencies in `conda.yaml`.
+- Standard Robot Framework
 
-## Learning materials
-
-- [Robocorp Developer Training Courses](https://robocorp.com/docs/courses)
-- [Documentation links on Robot Framework](https://robocorp.com/docs/languages-and-frameworks/robot-framework)
-- [Example bots in Robocorp Portal](https://robocorp.com/portal)
+- Environment: Production
+- OS: Windows 10 - 64-bit
+- SOFTWARE VERSION: 9.0 64 Bit
+- Build: 412.45223
+- Edition: Premium Trial
+- Serial Number: TRIAL
