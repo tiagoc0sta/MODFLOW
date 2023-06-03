@@ -8,6 +8,7 @@ Library    RPA.Windows
 *** Test Cases ***
 Validade whether user is possible to create a new project
     Windows Run    vmodflex.exe
-    Click    Name:Start Trial
+    Control Window    Visual MODFLOW Flex - []
+   
 
 
