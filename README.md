@@ -1,6 +1,6 @@
 # Test case: Validate whether the user is possible to save a project
 
-Technologies used:
+## Technologies used:
 
 - Standard Robot Framework
 
