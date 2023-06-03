@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.11.3 on win32)" generated="20230602 23:53:49.383" rpa="false" schemaversion="3">
+<suite id="s1" name="Tasks" source="c:\Users\chris\source\repos\Portfolio\Python\MODFLOW\MODFLOW\tasks.robot">
+<test id="s1-t1" name="Validade whether user is possible to create a new project" line="9">
+<kw name="Windows Run" library="RPA.Windows">
+<arg>vmodflex.exe</arg>
+<tag>window</tag>
+<doc>Use Windows Run window to launch an application.</doc>
+<msg timestamp="20230602 23:53:49.779" level="INFO">Sending keys '{Win}r' to element: &lt;module 'uiautomation' from 'C:\\Users\\chris\\AppData\\Roaming\\Python\\Python311\\site-packages\\uiautomation\\__init__.py'&gt;</msg>
+<msg timestamp="20230602 23:53:50.326" level="INFO">Sending keys 'vmodflex.exe' to element: &lt;module 'uiautomation' from 'C:\\Users\\chris\\AppData\\Roaming\\Python\\Python311\\site-packages\\uiautomation\\__init__.py'&gt;</msg>
+<msg timestamp="20230602 23:53:50.963" level="INFO">Sending keys '{Enter}' to element: &lt;module 'uiautomation' from 'C:\\Users\\chris\\AppData\\Roaming\\Python\\Python311\\site-packages\\uiautomation\\__init__.py'&gt;</msg>
+<status status="PASS" starttime="20230602 23:53:49.778" endtime="20230602 23:53:54.487"/>
+</kw>
+<kw name="Click" library="RPA.Windows">
+<arg>Name:Start Trial</arg>
+<tag>action</tag>
+<tag>mouse</tag>
+<doc>Mouse click on element matching given locator.</doc>
+<msg timestamp="20230602 23:53:54.489" level="INFO">Getting element with locator: Name:Start Trial</msg>
+<msg timestamp="20230602 23:53:54.693" level="INFO">Resulted root element: WindowsElement(item=&lt;uiautomation.uiautomation.PaneControl object at 0x0000027C744704D0&gt;, locator=None, name='Área de Trabalho 1', automation_id='', control_type='PaneControl', class_name='#32769', left=0, right=1366, top=0, bottom=768, width=1366, height=768, xcenter=683, ycenter=384)</msg>
+<msg timestamp="20230602 23:53:54.693" level="WARN">Invalid locator strategy 'Name'! (assuming 'name')</msg>
+<msg timestamp="20230602 23:53:54.695" level="INFO">Locator 'Name:Start Trial' produced matcher: MatchObject(locators=[('Name', 'Name:Start Trial', 0)], _classes=set(), max_level=0)</msg>
+<msg timestamp="20230602 23:54:13.219" level="INFO">2023-06-02 23:54:13.218 locators.py[274] _get_control_from_params -&gt; Find Control Timeout(10s): {Name: 'Name:Start Trial'}</msg>
+<msg timestamp="20230602 23:54:13.220" level="FAIL">ElementNotFound: Element not found with locator 'Name:Start Trial'</msg>
+<status status="FAIL" starttime="20230602 23:53:54.488" endtime="20230602 23:54:13.227"/>
+</kw>
+<status status="FAIL" starttime="20230602 23:53:49.776" endtime="20230602 23:54:13.228">ElementNotFound: Element not found with locator 'Name:Start Trial'</status>
+</test>
+<status status="FAIL" starttime="20230602 23:53:49.395" endtime="20230602 23:54:13.230"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Tasks">Tasks</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20230602 23:53:54.693" level="WARN">Invalid locator strategy 'Name'! (assuming 'name')</msg>
+</errors>
+</robot>
