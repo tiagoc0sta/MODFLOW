@@ -1,25 +1,40 @@
 *** Settings ***
 Library   RPA.Windows
 
+*** Variables ***
+${NEWPROJECT_NAME}=     p01
+
 *** Keywords ***
 Open The Modflow
     Windows Run    vmodflex.exe   
-    Control Window   name:Welcome to Visual MODFLOW Flex (9.0.412.45223)
+    Sleep    10
 
-Click the Trial button AutomationId Property Value
-    Click    id:button1
+    ##Control Window   name:Welcome to Visual MODFLOW Flex (9.0.412.45223)
 
-Save Project 
-    Control Window    name:Visual MODFLOW Flex - []
-    Click    name:File
-    Click    name:Save Project...
+Click the Trial button 
+    sleep  15
+    ##Click    id:button1
+    Send Keys    keys={TAB}{TAB}{TAB}{TAB}{SPACE}
+    Sleep    2s
+
+Create new Project 
+    #Validate whether the user is possible to create a new project 
+    Send Keys    keys={CTRL}n
+    Send Keys    keys=${NEWPROJECT_NAME}
+    Click    id:buttonOK
+    Sleep    2s    
+    Send Keys    keys={TAB}{SPACE}
+
+Save new Project  
+    #not implemented yet
+    Send Keys    keys={CTRL}s
 
 
 *** Tasks ***
 Automate The Modflow - Validate whether the user is possible to save a project  
     Open The Modflow
-    Click The Trial button AutomationId Property Value
-    Save Project 
+    Click The Trial button 
+    Create new Project 
     
 
 
