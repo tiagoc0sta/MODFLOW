@@ -32,7 +32,7 @@ Save new Project
 
 
 *** Tasks ***
-Automate The Modflow - Validate whether the user is possible create a new project  
+Automate The Modflow - Validate whether the user is possible to create a new project  
     Open The Modflow
     Click The Trial button 
     Create new Project 
