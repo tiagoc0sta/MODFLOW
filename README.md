@@ -23,7 +23,8 @@ Requirement: Python must be pre-installed
 - Click on Code
 - Download the ZIP file
 - Save the ZIP file locally- Extract the file
-- Open the file called "MODFLOW-main"- run on terminal: pip install robotframework
+- Open the file called "MODFLOW-main"
+- run on terminal: pip install robotframework
 - Right click
 - Open with Code (VS Code)
 - Open file "validationTest.robot"
