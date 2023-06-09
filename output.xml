@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 5.0.1 (Python 3.9.13 on win32)" generated="20230608 17:07:07.174" rpa="true" schemaversion="3">
-<suite id="s1" name="Validationtest" source="c:\Users\chris\source\repos\Portfolio\Python\MODFLOW\MODFLOW\validationtest.robot">
+<robot generator="Robot 5.0.1 (Python 3.9.13 on win32)" generated="20230609 09:43:46.175" rpa="true" schemaversion="3">
+<suite id="s1" name="validationTest" source="c:\Users\chris\source\repos\Portfolio\Python\MODFLOW\MODFLOW\validationTest.robot">
 <test id="s1-t1" name="Automate The Modflow - Validate whether the user is possible to create a new project" line="35">
 <kw name="Open The Modflow">
 <kw name="Windows Run" library="RPA.Windows">
 <arg>vmodflex.exe</arg>
 <tag>window</tag>
 <doc>Use Windows Run window to launch an application.</doc>
-<msg timestamp="20230608 17:07:08.075" level="INFO">Sending keys '{Win}r' to element: &lt;module 'uiautomation' from 'c:\\ProgramData\\robocorp\\ht\\98c3928_b1f3c24_1c0bc041\\lib\\site-packages\\uiautomation\\__init__.py'&gt;</msg>
-<msg timestamp="20230608 17:07:08.757" level="INFO">Sending keys 'vmodflex.exe' to element: &lt;module 'uiautomation' from 'c:\\ProgramData\\robocorp\\ht\\98c3928_b1f3c24_1c0bc041\\lib\\site-packages\\uiautomation\\__init__.py'&gt;</msg>
-<msg timestamp="20230608 17:07:09.726" level="INFO">Sending keys '{Enter}' to element: &lt;module 'uiautomation' from 'c:\\ProgramData\\robocorp\\ht\\98c3928_b1f3c24_1c0bc041\\lib\\site-packages\\uiautomation\\__init__.py'&gt;</msg>
-<status status="PASS" starttime="20230608 17:07:08.073" endtime="20230608 17:07:13.299"/>
+<msg timestamp="20230609 09:43:46.973" level="INFO">Sending keys '{Win}r' to element: &lt;module 'uiautomation' from 'c:\\ProgramData\\robocorp\\ht\\98c3928_b1f3c24_1c0bc041\\lib\\site-packages\\uiautomation\\__init__.py'&gt;</msg>
+<msg timestamp="20230609 09:43:47.642" level="INFO">Sending keys 'vmodflex.exe' to element: &lt;module 'uiautomation' from 'c:\\ProgramData\\robocorp\\ht\\98c3928_b1f3c24_1c0bc041\\lib\\site-packages\\uiautomation\\__init__.py'&gt;</msg>
+<msg timestamp="20230609 09:43:48.637" level="INFO">Sending keys '{Enter}' to element: &lt;module 'uiautomation' from 'c:\\ProgramData\\robocorp\\ht\\98c3928_b1f3c24_1c0bc041\\lib\\site-packages\\uiautomation\\__init__.py'&gt;</msg>
+<status status="PASS" starttime="20230609 09:43:46.973" endtime="20230609 09:43:52.228"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>10</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20230608 17:07:23.309" level="INFO">Slept 10 seconds</msg>
-<status status="PASS" starttime="20230608 17:07:13.301" endtime="20230608 17:07:23.311"/>
+<msg timestamp="20230609 09:44:02.246" level="INFO">Slept 10 seconds</msg>
+<status status="PASS" starttime="20230609 09:43:52.228" endtime="20230609 09:44:02.246"/>
 </kw>
-<status status="PASS" starttime="20230608 17:07:08.070" endtime="20230608 17:07:23.313"/>
+<status status="PASS" starttime="20230609 09:43:46.972" endtime="20230609 09:44:02.248"/>
 </kw>
 <kw name="Click the Trial button">
 <kw name="Sleep" library="BuiltIn">
 <arg>30</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20230608 17:07:53.330" level="INFO">Slept 30 seconds</msg>
-<status status="PASS" starttime="20230608 17:07:23.320" endtime="20230608 17:07:53.331"/>
+<msg timestamp="20230609 09:44:32.254" level="INFO">Slept 30 seconds</msg>
+<status status="PASS" starttime="20230609 09:44:02.251" endtime="20230609 09:44:32.255"/>
 </kw>
 <kw name="Send Keys" library="RPA.Windows">
 <arg>keys={TAB}{TAB}{TAB}{TAB}{SPACE}</arg>
@@ -33,16 +33,16 @@
 <tag>keyboard</tag>
 <doc>Send keys to desktop, current window or to Control element
 defined by given locator.</doc>
-<msg timestamp="20230608 17:07:53.336" level="INFO">Sending keys '{TAB}{TAB}{TAB}{TAB}{SPACE}' to element: &lt;module 'uiautomation' from 'c:\\ProgramData\\robocorp\\ht\\98c3928_b1f3c24_1c0bc041\\lib\\site-packages\\uiautomation\\__init__.py'&gt;</msg>
-<status status="PASS" starttime="20230608 17:07:53.333" endtime="20230608 17:07:54.434"/>
+<msg timestamp="20230609 09:44:32.259" level="INFO">Sending keys '{TAB}{TAB}{TAB}{TAB}{SPACE}' to element: &lt;module 'uiautomation' from 'c:\\ProgramData\\robocorp\\ht\\98c3928_b1f3c24_1c0bc041\\lib\\site-packages\\uiautomation\\__init__.py'&gt;</msg>
+<status status="PASS" starttime="20230609 09:44:32.257" endtime="20230609 09:44:33.295"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>2s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20230608 17:07:56.442" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20230608 17:07:54.436" endtime="20230608 17:07:56.443"/>
+<msg timestamp="20230609 09:44:35.303" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20230609 09:44:33.295" endtime="20230609 09:44:35.305"/>
 </kw>
-<status status="PASS" starttime="20230608 17:07:23.316" endtime="20230608 17:07:56.445"/>
+<status status="PASS" starttime="20230609 09:44:02.249" endtime="20230609 09:44:35.308"/>
 </kw>
 <kw name="Create new Project">
 <kw name="Send Keys" library="RPA.Windows">
@@ -51,8 +51,8 @@ defined by given locator.</doc>
 <tag>keyboard</tag>
 <doc>Send keys to desktop, current window or to Control element
 defined by given locator.</doc>
-<msg timestamp="20230608 17:07:56.455" level="INFO">Sending keys '{CTRL}n' to element: &lt;module 'uiautomation' from 'c:\\ProgramData\\robocorp\\ht\\98c3928_b1f3c24_1c0bc041\\lib\\site-packages\\uiautomation\\__init__.py'&gt;</msg>
-<status status="PASS" starttime="20230608 17:07:56.450" endtime="20230608 17:07:57.131"/>
+<msg timestamp="20230609 09:44:35.324" level="INFO">Sending keys '{CTRL}n' to element: &lt;module 'uiautomation' from 'c:\\ProgramData\\robocorp\\ht\\98c3928_b1f3c24_1c0bc041\\lib\\site-packages\\uiautomation\\__init__.py'&gt;</msg>
+<status status="PASS" starttime="20230609 09:44:35.319" endtime="20230609 09:44:35.944"/>
 </kw>
 <kw name="Send Keys" library="RPA.Windows">
 <arg>keys=${NEWPROJECT_NAME}</arg>
@@ -60,31 +60,31 @@ defined by given locator.</doc>
 <tag>keyboard</tag>
 <doc>Send keys to desktop, current window or to Control element
 defined by given locator.</doc>
-<msg timestamp="20230608 17:07:57.139" level="INFO">Sending keys 'p01' to element: &lt;module 'uiautomation' from 'c:\\ProgramData\\robocorp\\ht\\98c3928_b1f3c24_1c0bc041\\lib\\site-packages\\uiautomation\\__init__.py'&gt;</msg>
-<status status="PASS" starttime="20230608 17:07:57.132" endtime="20230608 17:07:57.750"/>
+<msg timestamp="20230609 09:44:35.946" level="INFO">Sending keys 'p01' to element: &lt;module 'uiautomation' from 'c:\\ProgramData\\robocorp\\ht\\98c3928_b1f3c24_1c0bc041\\lib\\site-packages\\uiautomation\\__init__.py'&gt;</msg>
+<status status="PASS" starttime="20230609 09:44:35.945" endtime="20230609 09:44:36.552"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>2s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20230608 17:07:59.759" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20230608 17:07:57.752" endtime="20230608 17:07:59.760"/>
+<msg timestamp="20230609 09:44:38.563" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20230609 09:44:36.553" endtime="20230609 09:44:38.565"/>
 </kw>
 <kw name="Click" library="RPA.Windows">
 <arg>id:buttonOK</arg>
 <tag>action</tag>
 <tag>mouse</tag>
 <doc>Mouse click on element matching given locator.</doc>
-<msg timestamp="20230608 17:07:59.764" level="INFO">Getting element with locator: id:buttonOK</msg>
-<msg timestamp="20230608 17:08:00.360" level="INFO">Resulted root element: WindowsElement(item=&lt;uiautomation.uiautomation.PaneControl object at 0x000001BA86114C10&gt;, locator=None, name='Área de Trabalho 1', automation_id='', control_type='PaneControl', class_name='#32769', left=0, right=1366, top=0, bottom=768, width=1366, height=768, xcenter=683, ycenter=384)</msg>
-<msg timestamp="20230608 17:08:00.361" level="INFO">Locator 'id:buttonOK' produced matcher: MatchObject(locators=[('AutomationId', 'buttonOK', 0)], _classes=set(), max_level=0)</msg>
-<msg timestamp="20230608 17:08:00.914" level="INFO">Returning element: WindowsElement(item=&lt;uiautomation.uiautomation.ButtonControl object at 0x000001BA86114BE0&gt;, locator='id:buttonOK', name='OK', automation_id='buttonOK', control_type='ButtonControl', class_name='WindowsForms10.BUTTON.app.0.7b8f05_r6_ad1', left=764, right=839, top=570, bottom=593, width=75, height=23, xcenter=801, ycenter=581)</msg>
-<status status="PASS" starttime="20230608 17:07:59.761" endtime="20230608 17:08:01.580"/>
+<msg timestamp="20230609 09:44:38.571" level="INFO">Getting element with locator: id:buttonOK</msg>
+<msg timestamp="20230609 09:44:38.825" level="INFO">Resulted root element: WindowsElement(item=&lt;uiautomation.uiautomation.PaneControl object at 0x0000024DB0B1F2B0&gt;, locator=None, name='Área de Trabalho 1', automation_id='', control_type='PaneControl', class_name='#32769', left=0, right=1366, top=0, bottom=768, width=1366, height=768, xcenter=683, ycenter=384)</msg>
+<msg timestamp="20230609 09:44:38.825" level="INFO">Locator 'id:buttonOK' produced matcher: MatchObject(locators=[('AutomationId', 'buttonOK', 0)], _classes=set(), max_level=0)</msg>
+<msg timestamp="20230609 09:44:53.772" level="INFO">2023-06-09 09:44:53.771 locators.py[274] _get_control_from_params -&gt; Find Control Timeout(10s): {AutomationId: 'buttonOK'}</msg>
+<msg timestamp="20230609 09:44:53.773" level="FAIL">ElementNotFound: Element not found with locator 'id:buttonOK'</msg>
+<status status="FAIL" starttime="20230609 09:44:38.567" endtime="20230609 09:44:53.781"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>2s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20230608 17:08:03.604" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20230608 17:08:01.587" endtime="20230608 17:08:03.605"/>
+<status status="NOT RUN" starttime="20230609 09:44:53.783" endtime="20230609 09:44:53.783"/>
 </kw>
 <kw name="Send Keys" library="RPA.Windows">
 <arg>keys={TAB}{SPACE}</arg>
@@ -92,23 +92,22 @@ defined by given locator.</doc>
 <tag>keyboard</tag>
 <doc>Send keys to desktop, current window or to Control element
 defined by given locator.</doc>
-<msg timestamp="20230608 17:08:03.608" level="INFO">Sending keys '{TAB}{SPACE}' to element: &lt;module 'uiautomation' from 'c:\\ProgramData\\robocorp\\ht\\98c3928_b1f3c24_1c0bc041\\lib\\site-packages\\uiautomation\\__init__.py'&gt;</msg>
-<status status="PASS" starttime="20230608 17:08:03.606" endtime="20230608 17:08:04.312"/>
+<status status="NOT RUN" starttime="20230609 09:44:53.783" endtime="20230609 09:44:53.784"/>
 </kw>
-<status status="PASS" starttime="20230608 17:07:56.447" endtime="20230608 17:08:04.314"/>
+<status status="FAIL" starttime="20230609 09:44:35.314" endtime="20230609 09:44:53.785"/>
 </kw>
-<status status="PASS" starttime="20230608 17:07:08.061" endtime="20230608 17:08:04.320"/>
+<status status="FAIL" starttime="20230609 09:43:46.971" endtime="20230609 09:44:53.788">ElementNotFound: Element not found with locator 'id:buttonOK'</status>
 </test>
-<status status="PASS" starttime="20230608 17:07:07.206" endtime="20230608 17:08:04.327"/>
+<status status="FAIL" starttime="20230609 09:43:46.187" endtime="20230609 09:44:53.791"/>
 </suite>
 <statistics>
 <total>
-<stat pass="1" fail="0" skip="0">All Tasks</stat>
+<stat pass="0" fail="1" skip="0">All Tasks</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat pass="1" fail="0" skip="0" id="s1" name="Validationtest">Validationtest</stat>
+<stat pass="0" fail="1" skip="0" id="s1" name="validationTest">validationTest</stat>
 </suite>
 </statistics>
 <errors>
