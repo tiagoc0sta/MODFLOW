@@ -7,13 +7,11 @@ ${NEWPROJECT_NAME}=     p01
 *** Keywords ***
 Open The Modflow
     Windows Run    vmodflex.exe   
-    Sleep    10
-
-    ##Control Window   name:Welcome to Visual MODFLOW Flex (9.0.412.45223)
-
+    sleep  30
+    
 Click the Trial button 
     sleep  30
-    ##Click    id:button1
+    ##Click    id:button1 - I had problem trying this approach (loacating via id)
     Send Keys    keys={TAB}{TAB}{TAB}{TAB}{SPACE}
     Sleep    2s
                  
@@ -27,15 +25,15 @@ Create new Project
     Send Keys    keys={TAB}{SPACE}
 
 Save new Project  
-    #not implemented yet
     Send Keys    keys={CTRL}s
 
 
 *** Tasks ***
 Automate The Modflow - Validate whether the user is possible to create a new project  
     Open The Modflow
-    Click The Trial button 
+    #Click The Trial button - Use in Trial Versio only
     Create new Project 
+    #Save new Project - if needed
     
 
 
