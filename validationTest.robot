@@ -7,7 +7,7 @@ ${NEWPROJECT_NAME}=     p01
 *** Keywords ***
 Open The Modflow
     Windows Run    vmodflex.exe   
-    sleep  30
+    sleep  60
     
 Click the Trial button 
     sleep  30
